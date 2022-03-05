@@ -1,0 +1,51 @@
+h1{
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+}
+.b{
+    margin: auto 10%;
+    width: 500px;
+    height: 500px;
+}
+header{
+    height: 15%;
+    background-color: #e6e609;
+}
+
+section {
+    background-color: white;
+    padding: 10px;
+    margin: 5px 0;
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+aside{
+    float: right;
+    position: relative;
+    top: 10;
+    top: -106%;
+    right: 0%;
+    height: 105%;
+    width: 26%;
+    background-color: rgba(204, 202, 202, 0.918);
+}
+footer{
+    background-color: #6d6b6b;
+    width: 100%;
+    height: 5%;
+    color: white;
+    position: relative;
+    bottom: -12%;
+}
+.a{
+    width: 700px;
+    height: 600px;
+    background-color: rgb(247, 246, 199);
+}
+p{
+    text-align: center;
+}
