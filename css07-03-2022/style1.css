@@ -1,0 +1,46 @@
+#container{
+    width: 100%;
+    height: 500px;
+   border: solid peru 4px;
+    display: flex;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+#a{
+    width: 11.11%;
+    
+    background-color: green;
+}
+#b{
+    width: 11.11%;
+    background-color: yellow
+}
+#c{
+    width: 11.11%;
+    background-color: purple;
+}
+#d{
+    width: 11.11%;
+    background-color:gray;
+}
+#e{
+    width: 11.1%;
+    background-color: blue;
+}
+#f{
+    width: 11.11%;
+    background-color: orange;
+}
+#g{
+    width: 11.11%;
+    background-color: pink;
+}
+#h{
+    width: 11.11%;
+    background-color: red;
+}
+#i{
+    width: 11.11%;
+    background-color: brown;
+}
