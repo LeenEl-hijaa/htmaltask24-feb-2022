@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #FEEEE3;
+}
+header{
+    background-color: #40428E;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: #FEEEE3;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+    color: #FEEEE3;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div1 h1{
+    color: #40428E;
+    font-weight: 900;
+    font-size: 4em;
+    padding-left: 100px;
+  
+}
+.div1 h3{
+    color: #40428E;
+    font-weight: 700;
+    font-size: 3em;
+
+}
+#h3{
+    padding-left: 50px;
+}
+.mypic img{
+  padding-left: 25%;
+  width: 450px;
+  height: 500px;
+}
+.div2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.aboutme{
+   
+    width: 95%;
+    height: 350px;
+    border: #40428E 2px solid;
+    border-radius: 20px;
+    background-color: #40428E;
+    box-shadow: 0 5px 25px cornflowerblue;
+    transition: 0.7s ease;
+}
+.aboutme:hover{
+    transform: scale(1.1);
+}
+.aboutme h1{
+    color: #FEEEE3;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 3em;
+}
+.aboutme p{
+    color: #FEEEE3;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 1.9em;
+    
+}
+.section3{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.section3 div{
+    width: 25%;
+    height: 350px;
+    border: #40428E 2px solid;
+    border-radius: 20px;
+    background-color: #40428E;
+}
+.section3 h2{
+    color: #FEEEE3;
+    font-size: 1.9em;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.div3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.references{
+    width: 95%;
+    height: 350px;
+    border: #40428E 2px solid;
+    border-radius: 20px;
+    background-color: #40428E;
+    box-shadow: 0 5px 25px cornflowerblue;
+    transition: 0.7s ease;
+}
+
+
+.references:hover{
+    transform: scale(1.1);
+}
+.references h1{
+    color: #FEEEE3;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 3em;
+}
+.content{
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.card{
+display: flex;
+flex-wrap: wrap;
+    color: #FEEEE3;
+    background-color: #40428E;
+    width: 29%;
+    box-shadow: 0 5px 25px cornflowerblue;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.ul{
+    font-weight: 900;
+    font-size: 1.2em;
+}
+.icons{
+    font-size: 3em;
+}
+.info h3{
+    font-size: 2em;
+ 
+}
+.info ul{
+    font-size: 1.1em;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #40428E;
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+.footer{
+    background-color: #40428E;
+    color: #FEEEE3;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer .social-icons a{
+font-size: 1.8em;
+color: #FEEEE3;
+padding-left: 20px;
+padding-right: 20px;
+transition: .5s ease;
+}
+.footer .social-icons a:hover{
+    transform: scale(1.1);
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contacts span{
+    padding-left: 20px;
+    
+}
+@media screen and (max-width:610px){ 
+    .main, section, .aboutme, .div2, .div1{ 
+        display:flex;
+        flex-direction: column;
+       justify-content: flex-start;
+        
+    }
+    .div1 h1 {
+        font-weight: 900;
+        font-size: 2em;
+        padding-left: 5px;
+        margin-top: 22px;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .card{
+        width: 100%;}
+}
+
